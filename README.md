@@ -82,3 +82,6 @@ Crop-Yield-Prediction
 ## Conclusion 
 
 This project demonstrates how machine learning can be used to predict crop yield using environmental and agricultural factors such as rainfall, temperature, pesticide usage, crop type, and cultivated area. The Random Forest regression model achieved strong predictive performance and identified key factors influencing crop productivity. The developed system can support data-driven agricultural planning and improved yield forecasting.
+
+## Google Colab 
+https://colab.research.google.com/drive/1pV1CFNYxFe2eBofglQ7Gtp_DpitwlDyz?usp=sharing
