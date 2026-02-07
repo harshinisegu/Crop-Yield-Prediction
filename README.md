@@ -1,9 +1,9 @@
-# Crop Yield Prediction Using Machine Learning 
-📌 Problem Statement
+## Crop Yield Prediction Using Machine Learning 
+## 📌 Problem Statement
     Accurate crop yield prediction is essential for improving agricultural planning, optimizing resource utilization, and ensuring food security. Crop production depends on several environmental and agricultural factors such as rainfall, temperature, pesticide usage, crop type, and geographic region. Traditional estimation methods often fail to capture complex nonlinear relationships among these variables.
 This project aims to develop a machine learning model that predicts crop yield using real-world agricultural data.
 
-🎯 Objective
+## 🎯 Objective
     The objective of this project is to build a predictive model that estimates crop yield using the following factors:
 Crop type (Item)
 Cultivated area (Area)
@@ -12,7 +12,7 @@ Annual rainfall
 Pesticide usage
 Average temperature
 
-📊 Dataset
+## 📊 Dataset
 Dataset Used: yield_df.csv
 The dataset contains historical agricultural production records collected from multiple regions and years.
 Features
@@ -25,7 +25,7 @@ avg_temp – Average temperature
 Target Variable
 hg/ha_yield – Crop yield (hectograms per hectare)
 
-⚙️ Model Pipeline
+## ⚙️ Model Pipeline
 1. Data Loading & Exploration
 Dataset inspection
 Missing value analysis
@@ -49,14 +49,14 @@ R² Score
 6. Model Interpretation
 Feature importance analysis used to identify key variables affecting yield prediction
 
-📈 Results & Performance
+## 📈 Results & Performance
 Metric	Value
 RMSE	~4.2
 R² Score	~0.88
 
 The model shows strong predictive performance, explaining a large portion of variance in crop yield.
 
-📉 Visualizations
+## 📉 Visualizations
 
 Crop yield distribution plot
 Rainfall vs Yield scatter plot
@@ -65,7 +65,7 @@ Feature importance plot
 
 These visualizations help understand relationships between environmental factors and crop yield.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Python
 Pandas, NumPy
@@ -73,7 +73,7 @@ Matplotlib, Seaborn
 Scikit-learn
 Google Colab
 
-📂 Project Structure
+## 📂 Project Structure
 Crop-Yield-Prediction
     yield_df.csv
     crop_yield_model.ipynb
